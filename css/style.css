@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: Roboto, sanf-serif;
+  height: 100%;
+}
+
+main {
+  height: 100%;
+}
+
+a {
+  color: lightgray;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+aside {
+  position: fixed;
+  display: inline-block;
+  width: 25%;
+  background-color: #011f4b;
+  height: 100%;
+}
+
+nav {
+  position: relative;
+  left: 35%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+li {
+  list-style: none;
+  padding-bottom: 20px;
+}
+
+li > a {
+  text-decoration: none;
+  color: #eee;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+
+section {
+  position: relative;
+  display: inline-block;
+  width: 75%;
+  background-color: #03396c;
+  left: 25%;
+  height: 100%;
+}
+
+section > h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40px;
+  margin: 10px 0 40px;
+  color: #f7f7f7;
+}
+
+section > h2 {
+  color: #eee;
+  padding-left: 10px;
+  margin: 40px 0;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+section > h3 {
+  color: #eee;
+  padding-left: 10px;
+  margin: 40px 0;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+section > h4 {
+  color: #eee;
+  padding-left: 10px;
+  margin: 40px 0;
+  font-size: 18px;
+}
+
+section > p {
+  color: #f7f7f7;
+  padding-left: 10px;
+}
+
+.coils {
+  height: auto;
+}
+
+.coils > p {
+  padding-bottom: 10px;
+}
+
+#pupin {
+  float: left;
+  padding-right: 10px;
+}
+
+#antenna-coil {
+  padding: 10px 10px;
+}
+
+figure {
+  padding: 10px 0 10px 10px;
+}
+
+figcaption {
+  color: #eee;
+}
+
+table {
+  border-collapse: collapse;
+  width: 95%;
+  margin: 40px auto;
+  color: #eee;
+}
+
+th {
+  padding: 18px;
+  font-size: 20px;
+}
+
+td {
+  padding: 6px;
+  font-size: 14px;
+}
+
+th,
+td {
+  border: 1px solid #f7f7f7;
+}
+
+.heading {
+  background-color: #011f4b;
+}
+
+.books {
+  background-color: #083158;
+}
+
+footer {
+  position: relative;
+  display: inline-block;
+  width: 75%;
+  background-color: #005b96;
+  height: 5vh;
+  text-align: center;
+  padding-top: 20px;
+  color: #eee;
+  left: 25%;
+}
